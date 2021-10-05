@@ -29,7 +29,7 @@ KD의 형태는 다음과 같다.
 
 2. Teacher model로 부터 *soft label을 추출하여 *Knowledge distillation loss로 student model을 학습한다.
 
-### Soft Lable?_ 코드로 구현해볼 것. 1
+### Soft Lable?
 ![image](https://user-images.githubusercontent.com/48556414/135952044-6f3fa9c8-f9e2-4868-ac57-69b913eeaaef.png)
 
 위와 같이 곰, 고양이, 강아지 3가지 클래스를 구분하는 모델이 있을 때, 
@@ -82,6 +82,11 @@ T는 soft label을 계산할 때 사용한 temparture을 동일하게 사용한�
 ### Embedding Distillation
 ### Weight Initialization
 
+## 앞으로의 계획
+1. MNIST dataset을 활용한 KD 적용 구현
+2. VGG10 -> VGG2 KD 구현
+3. Resnet 34 -> resnet 18 KD 구현.
+4. 자체적인 KD에 대한 생각.
 
 # Reference
 blog 
