@@ -65,7 +65,7 @@ T가 2~4 정도일 때 distillation이 효과적으로 적용되었다고 알려
 
 ![image](https://user-images.githubusercontent.com/48556414/135954223-08b57b40-8985-440d-b3d0-199b01827f60.png)
 
-첫 법ㄴ째 항은 Teature model에서 Soft Label을 계산하고, 해당 Soft Label과 동일한 결과를 도출하도록 Student model을 학습시킨다. 
+첫 번째 항은 Teature model에서 Soft Label을 계산하고, 해당 Soft Label과 동일한 결과를 도출하도록 Student model을 학습시킨다. 
 T는 soft label을 계산할 때 사용한 temparture을 동일하게 사용한다.
 두 번째 항은 Student model의 출력값과 hard label 사이의 Crossentropy label을 계산한다.
 알파는 두 항 사이의 비율을 조절한다.
