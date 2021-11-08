@@ -84,7 +84,7 @@ T는 soft label을 계산할 때 사용한 temparture을 동일하게 사용한�
 
 ## 앞으로의 계획
 1. MNIST dataset을 활용한 KD 적용 구현 _구현完
-2. VGG10 -> VGG2 KD 구현
+2. VGG19 -> VGG11 KD 구현
 3. Resnet 34 -> resnet 18 KD 구현.
 4. 자체적인 KD에 대한 생각.
 
